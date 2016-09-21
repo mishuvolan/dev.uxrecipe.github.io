@@ -79,7 +79,7 @@ h5 em {
 
 /*setting up the background*/
 html, .container-fluid{
-	background: #F2F4F6;
+	background: #ffffff;
 	background-image: url('img/pattern.png');
 	background-repeat: repeat-x;
 }
@@ -113,6 +113,35 @@ html, .container-fluid{
 	   transition: opacity .25s ease-in-out;
    -moz-transition: opacity .25s ease-in-out;
    -webkit-transition: opacity .25s ease-in-out;
+}
+
+.sweet-alert button.cancel {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	padding: 15px;
+	border: none;
+	border-radius: 3px;
+	font-size: 16px;
+	background: #FF9800 !important;
+	color: rgba(255,255,255, .9);
+	   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+.sweet-alert p {
+	line-height: 24px;
+	margin-bottom: 15px;
+}
+
+.sweet-alert h2 {
+	line-height: 36px;
+}
+
+.sweet-alert .icon {
+	width: 180px;
+	height: 180px;
 }
 
 button.confirm {
@@ -315,11 +344,11 @@ h3 em {
 }
 
 
-/*customizing the conclusin*/
+/*customizing the conclusion*/
 #conclusion {
 	padding: 20px;
 	display: none;
-	margin-top: -40px;
+	margin-top: 0px;
 
 }
 
@@ -327,8 +356,8 @@ h3 em {
 	text-align: left;
 	font-size: 14px;
 	line-height: 16px;
-	color: #fff;
-	background: #4CAF50;
+	color: #A7A9AC;
+	background: #FBFBFB;
 	display: block;
 	padding:10px;
 	padding-top: 20px;
@@ -346,6 +375,7 @@ h3 em {
 .heading {
 	font-size: 18px;
 	line-height: 32px;
+	color: #4CAF50;
 }
 
 
@@ -526,8 +556,8 @@ a[href="#conclusion"] {
 	#uxlogo h3, #uxlogo h4, 
 	#uxlogo a, #uxlogo p, #getstarted, 
 	#acknowledgementspart1, #acknowledgementspart2,
-	.calculate-me, .btn-ux-danger, .btn-ux-reset, #hint, .print-me,
-	#ux-calculator h5 {
+	.calculate-me, .btn-ux-danger, .btn-ux-reset, #hint, .supporters, #thanks, #awwwards, .print-me,
+	#ux-calculator h5, #mobileapps, #rates, #rates-paragraph {
 		display:none;
 	}
 
@@ -562,8 +592,11 @@ a[href="#conclusion"] {
 }
 
 #mc_embed_signup {
+	display: block;
 	margin: 0 auto;
 	background: none !important;
+
+	width: 300px !important;
 }
 
 #mce-EMAIL {
@@ -578,6 +611,8 @@ a[href="#conclusion"] {
 #mc_embed_signup input {
 	border-radius: 5px;
 }
+
+
 
 /* thanks */
 #thanks {
@@ -606,4 +641,54 @@ a[href="#conclusion"] {
 	-webkit-filter: grayscale(0%); 
 	filter: grayscale(0%);
 	opacity: 1;	
+}
+
+
+.ribbon-down {
+	margin-top: 150px !important;
+}
+
+/*.btn-group {
+	margin-top: 20px;
+	font-family: Roboto;
+
+}
+
+.btn-group a{
+	background: #fff;
+	color: #A7A9AC;
+	border: none !important;
+	text-shadow: 0 0px 0 rgba(0,0,0,.2);
+	border-radius: 0;
+}*/
+
+.select-style {
+    padding: 0;
+    padding-left: 3px;
+    margin: 0;
+    margin-top: 5px;
+    border: 1px solid #CCCCCC;
+    width: 80px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #fff;
+    display:inline; 
+}
+
+#rates-paragraph {
+	text-align: left;
+	margin-top: -30px;
+}
+
+#rates {
+	color: #FF443A;
+	font-size: 14px;
+	font-weight: 300;
+	text-decoration: underline;
+
+}
+
+#rates:hover, #rates:visited, #rates:focus {
+	color: #FF443A;
+	opacity: .7;
 }

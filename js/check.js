@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 //
+=======
+
+>>>>>>> uxrecipe/master
 $('input').change(function () {
     if ($(this).prop('checked')) {
         var iCountRes = $('.result').length;
@@ -33,6 +37,7 @@ function uncheckem() {
     $('#conclusion').hide();
     $("#summary-table").html('');
 }
+<<<<<<< HEAD
 
 ////add remove rows
 //$('input[value="Expert"]').change(function () {
@@ -849,3 +854,5 @@ function uncheckem() {
 //
 //
 //}
+=======
+>>>>>>> uxrecipe/master
